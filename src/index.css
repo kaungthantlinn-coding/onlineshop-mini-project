@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hide scrollbar for entire page */
+.category-button {
+    overflow: hidden;
+  }
+
+  
+  /* Hide scrollbar while still allowing scrolling */
+.category-button {
+    overflow: scroll;  /* Allows scrolling */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  .category-button::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Edge */
+  }
+  
