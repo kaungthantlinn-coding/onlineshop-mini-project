@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.category-button
+{
+    overflow: hidden;
+}
+
+.category-button{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.category-button::-webkit-scrollbar {
+    display: none;
+}
